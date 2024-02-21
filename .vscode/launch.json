@@ -1,0 +1,73 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GraphBfs",
+            "request": "launch",
+            "mainClass": "GraphBfs",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "type": "java",
+            "name": "interploation",
+            "request": "launch",
+            "mainClass": "interploation",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "type": "java",
+            "name": "JumpSearch",
+            "request": "launch",
+            "mainClass": "JumpSearch",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "type": "java",
+            "name": "Jsearch",
+            "request": "launch",
+            "mainClass": "Jsearch",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "placement_f6b29bf1"
+        },
+        {
+            "name": "C/C++: g++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++ build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ],
+    "version": "2.0.0"
+}
